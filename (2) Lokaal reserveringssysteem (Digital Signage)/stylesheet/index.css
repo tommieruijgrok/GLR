@@ -1,0 +1,54 @@
+body {
+    background-color: #c3d9e0;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#insideContainer {
+    width: 70vw;
+    background-color: #343434;
+    height: 60vh;
+    border-radius: 11px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr) );
+    gap: 5px;
+}
+
+button {
+    background-color: unset;
+    border: 0px;
+}
+
+.classRoom {
+    background-color: #c3d9e0;
+    padding: 5px;
+}
+
+#datePicker {
+    display: flex;
+    align-items: center;
+}
+
+#datePicker i {
+    margin-left: 5px;
+}
+
+a {
+    color: unset;
+}
